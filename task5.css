@@ -1,1 +1,30 @@
+h1{
+    margin-left:45%;
+}
+
+.container{
+    border: 1px solid black;
+    height:350px;
+    width:100vw;
+}
+.gallery {
+    display: flex;
+    position: relative;
+    top:100px;
+}
+  
+.gallery img {
+    width: 24%;
+    padding-right: 10px;
+}
+  
+.gallery img:hover {
+    transform: scale(1.2);
+}
+  
+img {
+      transition-property: transform;
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out;
+}
 
