@@ -1,0 +1,59 @@
+head,body{
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    top:60px;
+  }
+  
+.image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+ }
+  
+.p1 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+  
+.p2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+  /* Use fixed positioning to create a navigation bar that sticks to the top of the viewport */
+.navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: lightblue;
+}
+  
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+.navbar li {
+    list-style-type: none;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+  
+
