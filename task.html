@@ -1,0 +1,47 @@
+<!-- Task 1: Flexbox Layout
+
+Create an HTML file that includes a header, main content area, and a footer. Use CSS Flexbox to achieve the following layout:
+
+
+The header should have a height of 80 pixels and contain a navigation menu with evenly spaced items.
+
+The main content area should have a minimum height of 400 pixels and display its content in a column.
+
+The footer should have a height of 60 pixels and display content centered horizontally and vertically.
+
+Task 2: Flex Items Alignment
+
+Inside the main content area, create three boxes with different background colors and equal widths. Use Flexbox to align these boxes in a row, ensuring they have an equal amount of space between them.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <a class="nav-item" href="#">Home</a>
+        <a class="nav-item" href="#">About</a>
+        <a class="nav-item" href="#">Contact</a>
+        </div>
+        <div class="main">
+        <h1>Flexbox Layout</h1>
+        <p>This is an example of using Flexbox to create a responsive layout with a header, main, and a footer.</p>
+        <div class="box-container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        </div>
+        </div>
+        <div class="footer">
+        <p>footer</p>
+        </div>
+    </div>
+</body>
+</html>
